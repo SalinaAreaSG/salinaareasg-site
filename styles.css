@@ -6,13 +6,13 @@ body {
   color: #333;
 }
 header {
-  background: #5eb6e4;
+  background: #0E725E;
   color: white;
   padding: 1rem 2rem;
   text-align: center;
 }
 nav {
-  background: #4a90e2;
+  background: #48c090;
   padding: 1rem;
   text-align: center;
 }
@@ -63,7 +63,7 @@ input, textarea, select {
   border-radius: 5px;
 }
 button {
-  background: #4a90e2;
+  background: #48c090;
   color: white;
   padding: 0.75rem;
   border: none;
