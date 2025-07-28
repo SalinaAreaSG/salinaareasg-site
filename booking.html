@@ -37,10 +37,14 @@
       <input type="text" name="address" placeholder="Setup Address" required />
       <input type="text" name="zipcode" placeholder="Zip Code" required />
       <input type="text" name="recipient" placeholder="Recipient’s Name" />
-      <p>Recipient's Gender:</p>
-      <label><input type="radio" name="gender" value="Male" required> Male</label>
-      <label><input type="radio" name="gender" value="Female"> Female</label>
-      <label><input type="radio" name="gender" value="Not Applicable"> Not Applicable</label>
+     <div class="form-group gender-group">
+  <label>Gender:</label>
+  <div class="gender-options">
+    <label><input type="radio" name="gender" value="Male" required> Male</label>
+    <label><input type="radio" name="gender" value="Female"> Female</label>
+    <label><input type="radio" name="gender" value="Not Applicable"> Not Applicable</label>
+  </div>
+</div>
       <input type="text" name="age" placeholder="Age (if applicable)" />
       <input type="text" name="greeting" placeholder="Greeting Message" />
       <p>Event Date:</p>
