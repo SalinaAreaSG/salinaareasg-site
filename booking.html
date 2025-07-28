@@ -14,11 +14,31 @@
 
   <main>
     <form action="https://formspree.io/f/mvgqroep" method="POST">
-      <!-- Your form fields go here -->
-      <!-- Example: -->
       <input type="text" name="name" placeholder="Your Name" required />
       <input type="email" name="email" placeholder="Email Address" required />
-      <!-- etc... -->
+      <input type="tel" name="phone" placeholder="Phone Number" required />
+      <input type="tel" name="confirm phone" placeholder="Confirm Phone Number" required />
+      <input type="text" name="address" placeholder="Setup Address" required />
+      <input type="text" name="zipcode" placeholder="Zip Code" required />
+      <input type="text" name="recipient" placeholder="Recipient’s Name" />
+      <p>Recipient's Gender:</p>
+      <label><input type="radio" name="gender" value="Male" required> Male</label>
+      <label><input type="radio" name="gender" value="Female"> Female</label>
+      <label><input type="radio" name="gender" value="Not Applicable"> Not Applicable</label>
+      <input type="text" name="age" placeholder="Age (if applicable)" />
+      <input type="text" name="greeting" placeholder="Greeting Message" />
+      <p>Event Date:</p>
+      <input type="date" name="date" required />
+      <p>Choose Setup Option (See Setup Guide above for details)</p>
+      <select name="occasion">
+        <option value="Mega Num">Setup 1: Mega Number $85</option>
+        <option value="Mini">Setup 2: Mini Setup $70</option>
+        <option value="Mega Brd">Setup 3: Mega Board $85</option>
+        <option value="Mini Mega">Setup 4: Mini Mega Setup $75</option>
+        <option value="Full">Setup 5: Full Setup $95</option>
+        <option value="Custom">Custom Setup $95</option>
+      </select>
+      <textarea name="notes" placeholder="How can we customize your sign? List recipient's favorite colors, hobbies, interests, etc.) "></textarea>
       <button type="submit">Submit Request</button>
     </form>
   </main>
