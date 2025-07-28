@@ -1,3 +1,35 @@
+.setup-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.setup-option {
+  flex: 1 1 300px;
+  max-width: 350px;
+  text-align: center;
+}
+
+.setup-option img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin-bottom: 1rem;
+}
+
+.setup-option h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #a32cc4;
+}
+
+.setup-option p {
+  font-size: 1rem;
+  color: #444;
+}
 .gender-group {
   margin-bottom: 1.5rem;
 }
