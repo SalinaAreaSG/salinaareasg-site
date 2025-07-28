@@ -1,3 +1,41 @@
+#how-it-works {
+  background-color: #fef9ff;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.timeline {
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  gap: 2rem;
+}
+
+.timeline-step {
+  background-color: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.timeline-step .icon {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 1rem;
+  color: #a32cc4; /* Sign Gypsies purple */
+}
+
+.timeline-step h3 {
+  margin: 0.5rem 0;
+  font-size: 1.25rem;
+}
+
+.timeline-step p {
+  margin: 0;
+  font-size: 1rem;
+  color: #444;
+}
 .form-container {
   max-width: 600px;
   margin: 0 auto;
