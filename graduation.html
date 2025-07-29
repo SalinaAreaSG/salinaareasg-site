@@ -27,9 +27,28 @@
     <h2>Book a sign for your favorite Grad!</h2>
     <p>Complete the form below to be put on our waitlist for graduation signs. We will contact you a month before graduation season to start planning! Signing up guarantees that you will have the opportunity to book before the public, but if you change your mind you do not have to order.</p>
   </div>
-  <div class="grad-image-container">
-  <img src="images/GradBryson.JPEG" alt="Graduation yard sign setup" class="grad-image">
+  <div id="gradCarousel" class="carousel slide grad-carousel" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/GradBryson.JPEG" class="d-block w-100" alt="Graduation Sign 1">
+    </div>
+    <div class="carousel-item">
+      <img src="images/GradJaycee.JPEG" class="d-block w-100" alt="Graduation Sign 2">
+    </div>
+    <div class="carousel-item">
+      <img src="images/GradHannah.JPEG" class="d-block w-100" alt="Graduation Sign 3">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#gradCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#gradCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
+
     <main>
   <div class="form-container">
     <form action="https://formspree.io/f/xzzvgvow" method="POST">
